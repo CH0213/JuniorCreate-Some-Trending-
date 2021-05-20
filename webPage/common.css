@@ -1,0 +1,30 @@
+.loading-modal{
+  background-color: black;
+  opacity: 0.4;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: none;
+}
+
+.loading-modal-text{
+  color: white;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  width:50%;
+  height: 20%;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  text-align: center;
+  font-size: 100px;
+}
+
+.nowpage {
+  background-color:#fccc3d;
+  color:black;
+}

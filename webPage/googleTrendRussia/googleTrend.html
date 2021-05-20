@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../table.css">
+    <link rel="stylesheet" href="../../modal.css">
+    <link rel="stylesheet" href="./basic.css?=1">
+    <link rel="stylesheet" href="../common.css">
+    <meta charset="utf-8">
+    <title>구글 실시간 검색어</title>
+
+  </head>
+  <body>
+    <div class="loading-modal">
+      <p class="loading-modal-text">loading...</p>
+    </div>
+
+
+    <div id="modal"><div id="contents"></div></div>
+
+    <aside id=''>
+    <a>
+    <svg version="1.1" id="nav-btn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+      <path id="list-view-icon" d="M462,108.857H50V50h412V108.857z M462,167.714H50v58.857h412V167.714z M462,285.429H50v58.857h412
+     V285.429z M462,403.143H50V462h412V403.143z"/>
+    </svg>
+  </a>
+    <h1 id="top_title"><a href="../main/main.html">Some<br>Trending</a></h1>
+
+    <nav>
+      <ul>
+
+        <li class="products">실시간 급상승 검색어</li>
+        <li id="daum_li"><a href="../daumTrend/daumTrend.html">다음 실시간 검색어</a></li>
+        <li id="google_li" onclick="toggleGoogle()"><a href="#" class="nowpage">구글 실시간 검색어</a></li>
+        <ul id="google_ul">
+                  <li><a href="../googleTrendEgypt/googleTrend.html">이집트</a></li>
+                  <li><a href="../googleTrendFrance/googleTrend.html">프랑스</a></li>
+                  <li><a href="../googleTrendGermany/googleTrend.html">독일</a></li>
+                  <li><a href="../googleTrendIndonesia/googleTrend.html">인도네시아</a></li>
+                  <li><a href="../googleTrendItaly/googleTrend.html">이탈리아</a></li>
+                  <li><a href="../googleTrendJapan/googleTrend.html">일본</a></li>
+                  <li><a href="../googleTrendKorea/googleTrend.html">한국</a></li>
+                  <li><a href="../googleTrendMalaysia/googleTrend.html">말레이시아</a></li>
+                  <li><a href="../googleTrendNetherlands/googleTrend.html">네덜란드</a></li>
+                  <li><a href="../googleTrendPortugal/googleTrend.html">포르투갈</a></li>
+                  <li><a href="../googleTrendRussia/googleTrend.html" class="nowpage">러시아</a></li>
+                  <li><a href="../googleTrendSaudiArabia/googleTrend.html">사우디아라비아</a></li>
+                  <li><a href="../googleTrendTerkey/googleTrend.html">터키</a></li>
+                  <li><a href="../googleTrendThailand/googleTrend.html">태국</a></li>
+                  <li><a href="../googleTrendUnitedStates/googleTrend.html">미국</a></li>
+                  <li><a href="../googleTrendVietnam/googleTrend.html">베트남</a></li>
+        </ul>
+
+        <li class="products">유튜브 구독자 순위</li>
+        <li><a href="../youtubeWorldRanking/youtubeWorldRanking.html">전세계 구독자 순위</a></li>
+        <li><a href="../youtubeKoreaRanking/youtubeKoreaRanking.html">한국 구독자 순위</a></li>
+
+        <li class="products">어플리케이션 순위</li>
+        <li><a href="../googleplaystore/googleplaystore.html">구글 플레이 스토어</a></li>
+
+        <li class="products">현재 상영중인 영화</li>
+        <li><a href="../movie/movie.html">일일 박스오피스</a></li>
+
+        <li class="products">음원 차트</li>
+        <li><a href="../genieRanking/genie.html">지니 뮤직 차트 top50</a></li>
+
+        <li class="products">프로그래밍 언어 순위</li>
+        <li><a href="../programmingTrend/programmingTrend.html">프로그래밍 언어 순위</a></li>
+
+      </ul>
+    </nav>
+
+    <div class="vertical-line"></div>
+
+
+  </aside>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./script.js?=2"></script>
+    <script src="../common.js"></script>
+  </body>
+</html>

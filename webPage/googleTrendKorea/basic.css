@@ -1,0 +1,27 @@
+
+#ifr {
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 40%;
+  left:60%;
+  top:0;
+  margin: auto;
+  padding: 20px;
+  /*display: none;*/
+}
+
+@media (max-width: 730px) {
+  .table-fill {
+	  background: white;
+	  border-radius:3px;
+	  border-collapse: collapse;
+	  height: 120px;
+	  max-width: 50%;
+	  padding:5px;
+	  width: 100%;
+		margin-left: 0;
+	  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	  animation: float 5s infinite;
+	}
+}
